@@ -166,7 +166,7 @@ const ServicesPage: React.FC = () => {
           ))}
         </div>
 
-        <div className="bg-white rounded-2xl p-8 mb-16 shadow-lg" data-aos="fade-up">
+        {/* <div className="bg-white rounded-2xl p-8 mb-16 shadow-lg" data-aos="fade-up">
           <style>{`
             .heart-anim { color: #ef4444; display: inline-block; animation: heartColor 3s ease-in-out infinite; transform-origin: center; }
             @keyframes heartColor {
@@ -193,7 +193,7 @@ const ServicesPage: React.FC = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
 
         <div className="text-center">
           <h2 className="text-2xl font-bold text-gray-800 mb-4">
