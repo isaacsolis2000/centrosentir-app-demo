@@ -56,7 +56,7 @@ const WorkshopsPage: React.FC = () => {
       description: "Espacio para desarrollar una identidad sólida, autoestima y aprender a establecer límites claros en relaciones personales y profesionales.",
       icon: <FaUserShield className="text-3xl" />,
       color: "from-green-400 to-emerald-400",
-      duration: "5 sesiones de 2 horas",
+      duration: "3 horas y media",
       format: "Grupal (máx. 12 personas)",
       topics: [
         "Desarrollo de autoestima",
