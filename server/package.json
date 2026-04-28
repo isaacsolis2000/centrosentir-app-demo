@@ -1,0 +1,14 @@
+{
+  "name": "blog-psicologa-server",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.22.1",
+    "nodemailer": "^6.9.15"
+  }
+}

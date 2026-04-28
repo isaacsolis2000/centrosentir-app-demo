@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+/* Configuración de tema personalizado */
+@theme {
+  /* Colores primarios */
+  --color-primary-50: #f7f1eb;
+  --color-primary-100: #f0e7e1;
+  --color-primary-200: #e4d7cd;
+  --color-primary-300: #d1c1b5;
+  --color-primary-400: #bbaea2;
+  --color-primary-500: #aa9e92;
+  --color-primary-600: #94877b;
+  --color-primary-700: #7c7066;
+  
+  /* Colores suaves y neutros como en el PDF */
+  --color-soft-blue: #f0e7e1;
+  --color-soft-green: #e4d7cd;
+  --color-soft-beige: #f7f1eb;
+  --color-soft-white: #ffffff;     /* blanco */
+  --color-soft-gray: #f0e7e1;
+  
+  /* Fuentes */
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+/* Estilos base */
+body {
+  @apply bg-soft-beige text-gray-900 font-sans antialiased;
+  margin: 0;
+  padding: 0;
+}
+
+/* Utilidades personalizadas */
+.container {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.btn-primary {
+  @apply bg-primary-500 hover:bg-primary-600 text-primary-50 font-medium py-3 px-6 rounded-lg transition-all duration-200 hover:shadow-lg;
+}
+
+.btn-secondary {
+  @apply bg-primary-50 border border-primary-500 text-primary-700 hover:bg-primary-100 font-medium py-3 px-6 rounded-lg transition-all duration-200;
+}
