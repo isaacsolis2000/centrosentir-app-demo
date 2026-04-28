@@ -2,7 +2,6 @@
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import {
-  FaHeart,
   FaUsers,
   FaBalanceScale,
   FaUtensils,
@@ -97,21 +96,7 @@ const ServicesPage: React.FC = () => {
     }
   ];
 
-  const allSpecialties = [
-    "Acompañamiento en relaciones de pareja y dinámicas interpersonales",
-    "Ansiedad, depresión y estrés",
-    "Conflictos de identidad",
-    "Consumo de sustancias (adicciones)",
-    "Dependencia emocional",
-    "Habilidades sociales básicas",
-    "Intervención en crisis y duelos",
-    "Manejo de emociones / regulación emocional",
-    "Orientación en crianza y dinámicas familiares",
-    "Procesos de transformación personal y etapas de vida",
-    "Problemas de autoestima y amor propio",
-    "Trastornos alimenticios",
-    "Trauma y heridas emocionales profundas"
-  ];
+
 
   return (
     <div className="min-h-screen py-12">
