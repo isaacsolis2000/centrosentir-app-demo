@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import { Turnstile } from '@marsidev/react-turnstile';
+import { Turnstile, type TurnstileInstance } from '@marsidev/react-turnstile';
 import { emailService } from '../../../infrestructure/services/EmailService';
 
 interface FormData {
@@ -14,7 +14,7 @@ interface FormData {
 type SubmitStatus = 'idle' | 'sending' | 'success' | 'error';
 
 const ContactForm: React.FC = () => {
-  const turnstileRef = useRef<{ reset: () => void }>(null);
+  const turnstileRef = useRef<TurnstileInstance>(null);
   const [turnstileToken, setTurnstileToken] = useState<string>('');
   const [formData, setFormData] = useState<FormData>({
     name: '',
