@@ -157,7 +157,7 @@ const HomePage: React.FC = () => {
               <div className="space-y-6 text-gray-800">
                 <p className="text-lg leading-relaxed">
                   <span className="font-semibold">
-                    Creo que no somos solo un cerebro y un cuerpo superficialmente vistos desde afuera.
+                    Creemos que no somos solo un cerebro y un cuerpo superficialmente vistos desde afuera.
                   </span>{' '}
                   Somos emociones, historia y una esencia que merece ser escuchada con verdad.
                 </p>
